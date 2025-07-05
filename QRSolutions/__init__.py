@@ -4,4 +4,4 @@ from .AlphaNumericEncoding import AlphaNum # Creates A QR code no matter the enc
 from .numericEncoder import Numeric # Creates A QR code no matter the encoding type, Returns as a file
 from .KanjiEncoding import Kanji # Creates A QR code no matter the encoding type, Returns as a file
 
-print("Thanks for Installing QRSolution \n more information at Domain \n Current Version is 0.0.1")
+print("Thanks for Installing QRSolution! Documentation at link \nCurrent Version is 0.0.1")
