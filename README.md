@@ -1,1 +1,2 @@
 # QRSolutions
+QRSolutions is a python module made to make generating QR Codes Faster and easier for all. It allows the user to inbuild code that creates a QR Code with no prior authentication of the format of the link, instead this is all proccsed by the module and returns errors or a file for the 

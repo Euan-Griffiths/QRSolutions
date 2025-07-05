@@ -26,6 +26,7 @@
     <Compile Include="ByteEncoding.py" />
     <Compile Include="KanjiEncoding.py" />
     <Compile Include="numericEncoder.py" />
+    <Compile Include="temp.py" />
     <Compile Include="typeSelector.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>

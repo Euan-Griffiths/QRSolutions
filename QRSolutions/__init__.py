@@ -5,3 +5,15 @@ from .numericEncoder import Numeric # Creates A QR code no matter the encoding t
 from .KanjiEncoding import Kanji # Creates A QR code no matter the encoding type, Returns as a file
 
 print("Thanks for Installing QRSolution! Documentation at link \nCurrent Version is 0.0.1")
+
+import os
+
+try:
+    import pillow
+except:
+    os.system("pip install pillow")
+    
+try:
+   import tqdm
+except:
+   os.system("pip install tqdm")
