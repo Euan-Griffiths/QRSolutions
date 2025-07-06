@@ -1,18 +1,19 @@
-from .typeSelector import Generator # Creates A QR code no matter the encoding type, Returns as a file
-from .ByteEncoding import Byte # Creates A QR code no matter the encoding type, Returns as a file
-from .AlphaNumericEncoding import AlphaNum # Creates A QR code no matter the encoding type, Returns as a file
-from .numericEncoder import Numeric # Creates A QR code no matter the encoding type, Returns as a file
-from .KanjiEncoding import Kanji # Creates A QR code no matter the encoding type, Returns as a file
+import functools
+from .TypeSelector import Generator  # takes string and error correction level, returns file
+from .ByteEncoding import Byte  # takes string for byte encoding and error correction level, returns file
+from .AlphaNumericEncoding import AlphaNum  #takes an alphaNumeric string and error correction, returns file
+from .numericEncoder import Numeric  # takes a numeric string and error correction level, returns file
+from .KanjiEncoding import Kanji  # takes a Kanji string and error correction level, returns file
 
 print("Thanks for Installing QRSolution! Documentation at link \nCurrent Version is 0.0.1")
 
 import os
 
 try:
-    import pillow
+    import PIL
 except:
     os.system("pip install pillow")
-    
+
 try:
    import tqdm
 except:

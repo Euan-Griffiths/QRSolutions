@@ -25,9 +25,9 @@
     <Compile Include="AlphaNumericEncoding.py" />
     <Compile Include="ByteEncoding.py" />
     <Compile Include="KanjiEncoding.py" />
-    <Compile Include="numericEncoder.py" />
+    <Compile Include="NumericEncoder.py" />
     <Compile Include="temp.py" />
-    <Compile Include="typeSelector.py" />
+    <Compile Include="TypeSelector.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
