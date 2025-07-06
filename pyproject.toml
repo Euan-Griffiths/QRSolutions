@@ -27,12 +27,12 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/henry112q/qrsolutions#readme"
-Issues = "https://github.com/henry112q/qrsolutions/issues"
-Source = "https://github.com/henry112q/qrsolutions"
+Documentation = "https://github.com/henry112q/QRSolutions#readme"
+Issues = "https://github.com/henry112q/QRSolutions/issues"
+Source = "https://github.com/henry112q/QRSolutions"
 
 [tool.hatch.version]
-path = "src/qrsolutions/__about__.py"
+path = "src/QRSolutions/__about__.py"
 
 [tool.hatch.envs.types]
 extra-dependencies = [
@@ -46,12 +46,12 @@ source_pkgs = ["qrsolutions", "tests"]
 branch = true
 parallel = true
 omit = [
-  "src/qrsolutions/__about__.py",
+  "src/QRSolutions/__about__.py",
 ]
 
 [tool.coverage.paths]
-qrsolutions = ["src/qrsolutions", "*/qrsolutions/src/qrsolutions"]
-tests = ["tests", "*/qrsolutions/tests"]
+qrsolutions = ["src/QRSolutions", "*/QRSolutions/src/QRSolutions"]
+
 
 [tool.coverage.report]
 exclude_lines = [
