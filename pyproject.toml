@@ -54,7 +54,7 @@ omit = [
 qrsolutions = ["src/QRSolutions", "*/QRSolutions/src/QRSolutions"]
 
 [tool.hatch.build.targets.wheel]
-Packages = ["scr/QRSolutions]
+Packages = ["scr/QRSolutions"]
 
 [tool.coverage.report]
 exclude_lines = [
