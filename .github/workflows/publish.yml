@@ -27,6 +27,12 @@ jobs:
       - name: Build package
         run: |
           python -m build
+          if [ ! -d "dist" ]; then
+            echo "Error: dist directory not created after build"
+            exit 1
+          fi
+          ls -la dist/
+        continue-on-error: false
       - name: Verify distribution files
         run: |
           ls -la dist/
