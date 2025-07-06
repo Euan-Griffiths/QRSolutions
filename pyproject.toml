@@ -32,14 +32,15 @@ Issues = "https://github.com/henry112q/QRSolutions/issues"
 Source = "https://github.com/henry112q/QRSolutions"
 
 [tool.hatch.version]
-path = "src/QRSolutions/__about__.py"
+path = "scr\QRSolutions\__about__.py"
+function = "version"
 
 [tool.hatch.envs.types]
 extra-dependencies = [
   "mypy>=1.0.0",
 ]
 [tool.hatch.envs.types.scripts]
-check = "mypy --install-types --non-interactive {args:src/qrsolutions tests}"
+check = "mypy --install-types --non-interactive {args:src/QRSolutions tests}"
 
 [tool.coverage.run]
 source_pkgs = ["qrsolutions", "tests"]
