@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "qrsolutions"
+name = "QRSolutions"
 dynamic = ["version"]
 description = 'A Package designed for the fast creation of QR Codes'
 readme = "README.md"
@@ -53,6 +53,8 @@ omit = [
 [tool.coverage.paths]
 qrsolutions = ["src/QRSolutions", "*/QRSolutions/src/QRSolutions"]
 
+[tool.hatch.build.targets.wheel]
+Packages = ["scr/QRSolutions]
 
 [tool.coverage.report]
 exclude_lines = [
